@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kolaborasi</title>
+  </head>
+
+  <style>
+    body {
+        margin: 0px;
+    }
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      background-color: #333333;
+      display: flex;
+    }
+
+    ul li a {
+      display: block;
+      color: white;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    ul li a:hover {
+      background-color: #111111;
+    }
+
+    .container {
+      display: flex;
+      background-color: rgb(170, 211, 253);
+    }
+
+    .container div {
+        margin-top: auto;
+        margin-bottom: auto;
+        color: #000;
+        font-size: 30px;
+    }
+
+    .promosi {
+        background-color: cadetblue;
+    }
+
+    .promosi h1, h3 {
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .promosi video {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+    }
+
+    .promosi img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+    }
+
+    .Proposal{
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(76, 198, 255, 0.767);
+    }
+
+    .Proposal    iframe {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .Proposal h1 {
+     margin-top: 0;
+     text-align: center;
+    }
+
+    footer {
+    background-color: #777;
+    padding: 9px;
+    text-align: center;
+    color: white;
+    }
+
+    .PPt{
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(76, 198, 255, 0.767);
+    }
+
+    .PPT    iframe {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+    }
+
+    .PPT h1 {
+     margin-top: 0;
+     text-align: center;
+    }
+
+    footer {
+    background-color: #777;
+    padding: 9px;
+    text-align: center;
+    color: white;
+  </style>
+  <body>
+    <!-- Navigasi -->
+    <div>
+      <ul>
+        <li><a href="#produk">Produk</a></li>
+        <li><a href="#promosi">Promosi</a></li>
+        <li><a href="#Proposal">Prposal</a></li>
+        <li><a href="#PPT">PPT</a></li>
+      </ul>
+    </div>
+
+    <!-- Produk -->
+    <div id="produk" class="container">
+      <div>
+        <img src="LOGO.jpg" width="365px" height="300px" alt="" />
+      </div>
+      <div>
+        <caption">
+          Kami siswa membuat projek usaha berupa usaha UMKM di pembuatan sweater, kami membuat usaha ini dikarenakan perkembangan gaya hidup masyarakat saat ini semakin dinamis. Banyak orang yang mengutamakan kenyamanan dan penampilan dalam beraktivitas, baik saat berolahraga maupun saat menjalani rutinitas sehari-hari. 
+          Salah satu kebutuhan utama dalam hal ini adalah pakaian yang fleksibel, nyaman, dan tetap stylish — seperti sweater multifungsi.
+
+        </caption>
+      </div>
+    </div>
+
+    <!-- Promosi -->
+     <div class="promosi" id="promosi">
+        <h1>SWEATBOOMBER</h1>
+        <h3>Video Promosi</h3>
+        <video width="650px" controls>
+            <source src="video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <h3>Poster Promosi</h3>
+        <img src="poster1.jpg" width="650px">  
+         <img src="poster2.jpg" width="650px">
+     </div>
+
+     <!-- Laporan -->
+      <div class="Proposal" id="Proposal">
+        <h1>PROPOSAL
+        </h1>
+        <iframe width="50%" height="80%" src="PROPOSAL PROJEK SAS 2025.pdf" title="description"></iframe>
+      </div>
+     <div class="Proposal" id="Proposal">
+        <h1>PPT
+        </h1>
+        <iframe width="50%" height="80%" src="sb.pdf" title="description"></iframe>
+      </div>
+
+      <!-- Footer -->
+       <footer>
+        <p>Kelompok Kolaborasi 5</p>
+        <p>Vrila, Siska, Ana, David</p>
+        <p>07,24,02,11</p>
+       </footer>
+  </body>
+</html>
